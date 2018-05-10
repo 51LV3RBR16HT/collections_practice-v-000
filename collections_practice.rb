@@ -44,8 +44,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-
-  array.map {|word| word.last = "s"}
-  # here we map one array to another, convert each element by some rule
-  array
+  array.map_with_index do |word, index|
+    word != 1 ? word << "s" : item
 end
