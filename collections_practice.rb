@@ -14,8 +14,6 @@ def sort_array_char_count(array)
   # use the <=> operator to compare the two arguments in the block
 end
 
-def swap_elements(a, b, c)
-  a, b, c = a, c, b
-  return a, b, c
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
 end
-
