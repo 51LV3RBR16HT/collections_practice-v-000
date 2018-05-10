@@ -13,3 +13,7 @@ def sort_array_char_count(array)
   # first specify, on the left between vertical bars, the arguments
   # use the <=> operator to compare the two arguments in the block
 end
+
+def swap_elements(array)
+
+end
