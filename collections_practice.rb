@@ -32,3 +32,7 @@ def kesha_maker(array)
   # here we map one array to another, convert each element by some rule
   array
 end
+
+def find_a(array)
+
+end
