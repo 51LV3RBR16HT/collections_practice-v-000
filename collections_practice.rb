@@ -46,4 +46,5 @@ end
 def add_s(array)
   array.map_with_index do |word, index|
     word != 1 ? word << "s" : item
+  end
 end
