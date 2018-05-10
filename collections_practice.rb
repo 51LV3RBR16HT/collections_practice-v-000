@@ -44,7 +44,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.join("s")
+  array.join("s ")
   # array.map {|word| word.last = "$"}
   # here we map one array to another, convert each element by some rule
   # array
