@@ -8,7 +8,8 @@ end
 
 def sort_array_char_count(array)
   result = array.sort {|left, right| left.length <=> right.length}
-  # create a variable 'result' to sort through the array
+  # create a variable 'result' to sort through the array, shortest to longest
   # throw it in two local variables (two is needed for the sort method to work)
-  # run the comparison operator <=>
+  # use the <=> operator to compare the two arguments in the block...
+  # here we compare the string lengths, not the strings themselves
 end
