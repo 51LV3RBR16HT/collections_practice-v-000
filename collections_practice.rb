@@ -39,5 +39,6 @@ end
 
 def sum_array(array)
   array.inject(:+)
-
+  # inject takes a value to start with, and a block, and it runs that block 
+  # once for each element of the list
 end
