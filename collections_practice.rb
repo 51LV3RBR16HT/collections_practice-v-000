@@ -36,7 +36,6 @@ end
 def find_a(array)
   if array.starts_with?("a")
     puts array
-  else
-    false
+
   end
 end
