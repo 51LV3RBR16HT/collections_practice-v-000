@@ -18,4 +18,4 @@ def swap_elements(a, b, c)
   a, b, c = a, c, b
   return a, b, c
 end
-end
+
