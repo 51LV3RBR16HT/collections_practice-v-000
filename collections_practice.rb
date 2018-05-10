@@ -28,6 +28,6 @@ def kesha_maker(array)
   # replaces the third character in each string with a $ ("dollar sign")
   # Ke$ha style. Use the .each method to iterate and build a new array to
   # return at the end of your method, just like we did in the "My Each" lab.
-  array.map { |name| array[2] = "$" }
+  array.map! { |name| array[2] = "$" }
   array
 end
